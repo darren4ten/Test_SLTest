@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SourceLinkTest
+namespace SourceLinkTest_snupkg
 {
     public class Speaker
     {
@@ -19,7 +19,14 @@ namespace SourceLinkTest
             Array.Reverse(strs);
             Console.WriteLine($"Your orginal msg is `{msg}` \r\n__{DateTime.Now}");
             Console.WriteLine($"Reversed msg is `{String.Join(" ", strs)}`\r\n__{DateTime.Now}");
-            Console.WriteLine("-------------------------------");
+
+            Console.WriteLine($"-------------{GetNamespaceInfo()}------------------");
+        }
+
+        public string GetNamespaceInfo()
+        {
+            var type = this.GetType();
+            return type.Namespace + "--" + type.Name;
         }
     }
 }
