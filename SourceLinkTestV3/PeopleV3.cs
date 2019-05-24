@@ -11,7 +11,7 @@ namespace SourceLinkTestV3
         public void Talk(String msg)
         {
             //welcome msg
-            var hello = "2019-5-24 11:32:09 Hello " + msg;
+            var hello = "1.0.1 Hello " + msg;
             //time
             var time = "Now is " + DateTime.Now;
             Console.WriteLine(hello);
