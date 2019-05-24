@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SourceLinktTestV1", "Source
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceLinkTestV2", "SourceLinkTestV2\SourceLinkTestV2.csproj", "{848BD98C-995D-4F13-965D-C1745BD83F74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceLinkTestV3", "SourceLinkTestV3\SourceLinkTestV3.csproj", "{A5F02F42-E04B-41D1-B0D9-269C673EEBC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{848BD98C-995D-4F13-965D-C1745BD83F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{848BD98C-995D-4F13-965D-C1745BD83F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{848BD98C-995D-4F13-965D-C1745BD83F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F02F42-E04B-41D1-B0D9-269C673EEBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F02F42-E04B-41D1-B0D9-269C673EEBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F02F42-E04B-41D1-B0D9-269C673EEBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F02F42-E04B-41D1-B0D9-269C673EEBC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
