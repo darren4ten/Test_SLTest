@@ -11,6 +11,7 @@ namespace SourceLinkTest_snupkg
 
         public void SpeakReverse(String msg)
         {
+            //check empty
             if (string.IsNullOrEmpty(msg))
             {
                 return;
@@ -19,7 +20,7 @@ namespace SourceLinkTest_snupkg
             Array.Reverse(strs);
             Console.WriteLine($"Your orginal msg is `{msg}` \r\n__{DateTime.Now}");
             Console.WriteLine($"Reversed msg is `{String.Join(" ", strs)}`\r\n__{DateTime.Now}");
-
+            // output split line
             Console.WriteLine($"-------------{GetNamespaceInfo()}------------------");
         }
 

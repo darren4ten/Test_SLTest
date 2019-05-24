@@ -11,7 +11,7 @@
 
     <!-- Optional: Build symbol package (.snupkg) to distribute the PDB containing Source Link -->
     <IncludeSymbols>true</IncludeSymbols>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <!--<SymbolPackageFormat>snupkg</SymbolPackageFormat>-->
 
     <VersionPrefix>1.0.1</VersionPrefix>
   </PropertyGroup>

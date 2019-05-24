@@ -2,16 +2,11 @@
 
 namespace SourceLinkTest
 {
-    public class Speaker
+    public class Speaker1
     {
-        public void Speak(String name, String msg)
+        public void SpeakReverseV1(String msg)
         {
-            Console.WriteLine($"Hello {name}, {msg} {DateTime.Now}");
-        }
-
-        public void SpeakReverse(String msg)
-        {
-            Console.WriteLine("// check empty");
+            Console.WriteLine("// check empty 2019-5-24 10:06:59");
             if (string.IsNullOrEmpty(msg))
             {
                 return;
