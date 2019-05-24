@@ -10,7 +10,7 @@ namespace SourceLinkTestV2
         /// <param name="msg">message</param>
         public void Talk(String msg) {
             //welcome msg
-            var hello = "1.0.3 Hello " + msg;
+            var hello = "1.0.4 Hello " + msg;
             //time
             var time = "Now is " + DateTime.Now;
             Console.WriteLine(hello);
